@@ -1,0 +1,40 @@
+:root{
+    --background-cards:#273c5e;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: var(--background-cards);
+}
+header h1{
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+ul{
+    display: inline-block;
+    width: 100%;
+}
+li {
+    width:250px ;
+    text-align:center;
+    align-items: center;
+    margin: 0 auto;
+}
+img{
+    align-items: center;
+    width: 250px;
+    
+}
