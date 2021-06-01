@@ -3,7 +3,7 @@
     --background-cards:#ababa6 ;
     --cards-border :#f4c630;
     --color-fonts:white;
-    --cards-back-color:#3c3f58;
+    --cards-back-color:/* #3c3f58 */  #6253d7  /* #362c80 */;
 }
 
 *{
@@ -14,7 +14,7 @@
 }
 html{
     font-size: 62.5%;
-    background-color: var(--background-color);
+    background-image: url("https://i.pinimg.com/564x/05/21/4d/05214d6dd81a7a7b66d4439861be6aa8.jpg");  
 }
 header {
     height: 50px;
@@ -39,6 +39,7 @@ header h1{
     min-width: 320px;
     height: auto;
     /* display: inline-block; */
+    margin-top: 25px;
 }
 .card-body{
     position: relative;
@@ -47,8 +48,7 @@ header h1{
     width:250px ;
     text-align:center;
     border-radius: 15px;
-    margin-top: 25px;
-
+    margin-bottom: 35px;
 }
 
 .card-body_front{
@@ -91,13 +91,13 @@ header h1{
     transform: perspective(600px) rotateY(0deg);
 }
 
- .card-body_front h2{
-    position: absolute;
+.card-body_back h2{
     top: -1px;
     left: calc(50% - 37.5px);
     color: var(--cards-border);
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
+
  .card-body_front img{
     align-items: center;
     margin-left: 2px;
@@ -107,7 +107,8 @@ header h1{
     margin-top: 12.5px;
 }
 .card-body_back p{
+    margin: 10px 10px;
     color: var(--color-fonts);
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2.5rem;
 }
