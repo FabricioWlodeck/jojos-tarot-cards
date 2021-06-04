@@ -3,6 +3,7 @@
     --background-cards:#ababa6 ;
     --cards-border :#f4c630;
     --color-fonts:white;
+    --color-h2-cards:black;
     --cards-back-color:/* #3c3f58 */ /*  #6253d7  */ #211d41;
 }
 
@@ -102,7 +103,7 @@ header h1{
     position: absolute;
     width: 100%;
     top: -2px;
-    color: var(--cards-border);
+    color: var(--color-h2-cards);
 }
 .title-box > h2{
     font-size: 2rem;
