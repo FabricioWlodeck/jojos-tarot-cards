@@ -1,0 +1,59 @@
+.cards-cuerpo{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body{
+margin-left: 45px;
+margin-right: 45px;
+margin-bottom: 70px;
+}
+
+header h1{
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 4rem;
+    color: var(--color-fonts);
+    font-style: italic;
+}
+
+.footer-box_agradecimientos{
+    font-family: monospace;
+    
+    font-size: 3rem;
+    height: 50%;
+    color: var(--color-fonts);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box_agradecimientos a{
+    font-style:italic ;
+    padding: 7.5px;
+    background-color: #3f264e;
+    border-radius: 10px;
+    color: var(--color-fonts);
+    text-decoration: none;
+}
+
+.footer-box_redes{
+    width: 100%;
+    height: 50%;
+    color: var(--color-fonts);
+    display: flex;
+    
+}
+.footer-box_redes a{
+    font-size: 4.5rem;
+    margin: 0 auto;
+    color: var(--color-fonts);
+}
+.footer-box_redes .a1{
+    margin-left:0 ;
+}
+.footer-box_redes .a3{
+    margin-right: 0;
+}
