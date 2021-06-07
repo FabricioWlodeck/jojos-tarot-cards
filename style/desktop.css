@@ -51,9 +51,9 @@ header h1{
     margin: 0 auto;
     color: var(--color-fonts);
 }
-.footer-box_redes .a1{
-    margin-left:0 ;
+.footer-box_redes .git_icon{
+    margin-left: 0px ;
 }
-.footer-box_redes .a3{
-    margin-right: 0;
+.footer-box_redes .instagram_icon{
+    margin-right: 0px;
 }

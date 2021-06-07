@@ -10,5 +10,10 @@ margin-right: 45px;
 }
 header h1{
     font-size: 3rem;
-
+}
+.footer-box_redes .git_icon{
+    margin-left: 0px ;
+}
+.footer-box_redes .instagram_icon{
+    margin-right: 0px;
 }
