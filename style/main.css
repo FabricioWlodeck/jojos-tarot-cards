@@ -121,7 +121,7 @@ header h1{
 .card-body_back p{
     margin: 10px 10px;
     color: var(--color-fonts);
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2.5rem;
 }
 footer{

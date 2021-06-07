@@ -17,3 +17,9 @@ header h1{
 .footer-box_redes .instagram_icon{
     margin-right: 0px;
 }
+.card-body_back p{
+    margin: 10px 10px;
+    color: var(--color-fonts);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
